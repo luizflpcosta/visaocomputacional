@@ -1,7 +1,7 @@
 # Visão Computacional
-Códigos feitos para a disciplina Visão Computacional
-Curso Engenharia de Computação
-Universidade Federal da Bahia
+Códigos feitos para a disciplina Visão Computacional <br>
+Curso Engenharia de Computação <br>
+Universidade Federal da Bahia <br>
 Aluno: Luiz Felipe Oliveira Borges Costa
 
 # LAB 1
