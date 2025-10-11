@@ -21,3 +21,15 @@ plt.show()
 
 cinza_mais_frequente = np.argmax(hist)
 print(f'O nível de cinza mais frequente é: {cinza_mais_frequente}')
+
+limiar = 120
+_, img_bin = cv2.threshold(img, limiar, 255, cv2.THRESH_BINARY)
+cv2.imshow('Imagem binária', img_bin)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+img_logica = img_bin // 255
+print('imagem binária lógica (0 e 1):')
+
+
+
