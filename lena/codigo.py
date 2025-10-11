@@ -1,6 +1,9 @@
 import cv2
 import numpy as np
 import time
+import os
+
+os.chdir(os.path.dirname(__file__))
 
 img = cv2.imread('lena.pgm', cv2.IMREAD_GRAYSCALE)
 frame = img.copy()
