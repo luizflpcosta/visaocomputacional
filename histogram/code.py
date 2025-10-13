@@ -8,7 +8,6 @@ os.chdir(os.path.dirname(__file__))
 # Lê a imagem em tons de cinza
 img = cv2.imread('penguins.png', cv2.IMREAD_GRAYSCALE)
 frame = img.copy()
-
 # calculando e mostrando o histograma
 hist = cv2.calcHist([img], [0], None, [256], [0, 256])
 
